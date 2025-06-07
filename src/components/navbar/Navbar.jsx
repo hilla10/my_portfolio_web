@@ -16,31 +16,26 @@ const Navbar = () => {
     <nav>
       <a
         href='#'
-        className={activeNav === '#' ? 'active' : ''}
+        className={` tooltip ${activeNav === '#' ? 'active' : ''}`}
         onClick={() => setActiveNav('#')}
         aria-label='Home'>
         <AiOutlineHome />
+        <span className='tooltiptext'>Home</span>
       </a>
       <a
         href='#about'
-        className={activeNav === '#about' ? 'active' : ''}
+        className={` tooltip ${activeNav === '#about' ? 'active' : ''}`}
         onClick={() => setActiveNav('#about')}>
         <AiOutlineUser />
+        <span className='tooltiptext'>About</span>
       </a>
       <a
         href='#experience'
-        className={activeNav === '#experience' ? 'active' : ''}
+        className={`tooltip ${activeNav === '#experience' ? 'active' : ''}`}
         onClick={() => setActiveNav('#experience')}>
         <BiBook />
+        <span className='tooltiptext'>Experience</span>
       </a>
-
-      {/* <a
-        href='#portfolio'
-        className={activeNav === '#portfolio' ? 'active' : ''}
-        onClick={() => setActiveNav('#portfolio')}>
-        <BiCodeAlt />
-      </a> */}
-
       <a
         href='#portfolio'
         className={`tooltip ${activeNav === '#portfolio' ? 'active' : ''}`}
@@ -51,15 +46,17 @@ const Navbar = () => {
 
       <a
         href='#testimonials'
-        className={activeNav === '#testimonials' ? 'active' : ''}
+        className={`tooltip ${activeNav === '#testimonials' ? 'active' : ''}`}
         onClick={() => setActiveNav('#testimonials')}>
         <BiCommentDetail />
+        <span className='tooltiptext'>Testimonials</span>
       </a>
       <a
         href='#contact'
-        className={activeNav === '#contact' ? 'active' : ''}
+        className={`tooltip ${activeNav === '#contact' ? 'active' : ''}`}
         onClick={() => setActiveNav('#contact')}>
         <BiSolidMessageSquareDetail />
+        <span className='tooltiptext'>Contact</span>
       </a>
     </nav>
   );
