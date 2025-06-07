@@ -1,0 +1,177 @@
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+.portfolio__item {
+  background: var(--color-bg-variant);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.portfolio__item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+}
+
+.portfolio__item-image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  height: 200px;
+  width: 320px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio__item-image img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.portfolio__item h3 {
+  margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item-cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio__stack {
+  margin: 1rem 0;
+  margin-bottom: 2rem;
+  font-size: 0.85rem;
+}
+
+.tech-badge {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  margin: 0.25rem 0.3rem 0 0;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: white;
+}
+
+.portfolio__stack > div {
+  margin-top: 1.1rem;
+}
+
+.reactjs {
+  background-color: #61dafb;
+  color: #000;
+}
+.tailwindcss {
+  background-color: #38bdf8;
+}
+.expressjs {
+  background-color: #404040;
+}
+.mongodb {
+  background-color: #10a54a;
+}
+.nodejs {
+  background-color: #68a063;
+}
+.jwt {
+  background-color: #f0ad4e;
+}
+.bcrypt {
+  background-color: #563d7c;
+}
+.cloudinary {
+  background-color: #3448c5;
+}
+.stripe {
+  background-color: #635bff;
+}
+
+.html {
+  background-color: #e34c26;
+}
+.css {
+  background-color: #264de4;
+}
+
+.javascript {
+  background-color: #f0db4f;
+}
+
+.bootstrap {
+  background-color: #563d7c;
+}
+.jquery {
+  background-color: #0769ad;
+}
+
+.php {
+  background-color: #8892be;
+}
+.mysql {
+  background-color: #00758f;
+}
+.codeigniter {
+  background-color: #ee4623;
+}
+
+.gsap {
+  background-color: #88ce02;
+  color: #000;
+}
+.threejs {
+  background-color: #000000;
+}
+.sentry {
+  background-color: #fb4226;
+}
+
+.framermotion {
+  background-color: #0055ff;
+}
+.swiperjs {
+  background-color: #6332f6;
+}
+.scrolllock {
+  background-color: #2d3748;
+}
+
+.axios {
+  background-color: #5a29e4;
+}
+
+.default-tech {
+  background-color: #4b5563;
+} /* fallback */
+
+/* ############### MEDIA QUERIES (MEDIUM DEVICES) ###############  */
+
+@media screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+  }
+}
+
+/* ############### MEDIA QUERIES (SMALL DEVICES) ###############  */
+
+@media screen and (max-width: 768px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .portfolio__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    height: 420px;
+    width: 100%;
+  }
+}
