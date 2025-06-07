@@ -45,10 +45,10 @@ npm install
 npm run dev
 
 ```
-
+```
 my_portfolio_web/
 ├── public/
-│   └── preview.jpg
+│   └── vite.svg
 ├── src/
 │   ├── assets/
 │   ├── components/
@@ -59,15 +59,19 @@ my_portfolio_web/
 ├── .gitignore
 ├── package.json
 └── vite.config.js
+```
 
 📜 License
 This project is open source and available under the [MIT License](./License).
 
 
 📬 Contact
-Hailemichael Negusse
-📧 hillaman592@gmail.com
-📱 +251995491020 / +251967745172
+
+  Hailemichael Negusse
+  
+  📧 hillaman592@gmail.com
+  
+  📱 +251995491020 / +251967745172
 
 💡 Inspiration
 - This project was inspired by modern portfolio designs aimed at helping developers showcase their work and connect professionally.
