@@ -1,4 +1,4 @@
-import { FaDribbble, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaDribbble, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 
 const HeaderSocials = () => {
@@ -12,6 +12,9 @@ const HeaderSocials = () => {
       </a>
       <a href='https://github.com/hilla10' target='_blank'>
         <FaGithub />
+      </a>
+      <a href='https://www.instagram.com/hillaman592' target='_blank'>
+        <FaInstagram />
       </a>
       <a href='https://dribbble.com/Hayle16' target='_blank'>
         <FaDribbble />
