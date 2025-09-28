@@ -7,7 +7,7 @@ const HeaderSocials = () => {
       <a href='https://x.com/man_hilla' target='_blank'>
         <FaXTwitter />
       </a>
-      <a href='https://linkedin.com' target='_blank'>
+      <a href='https://www.linkedin.com/in/hailemichaelnegusse/' target='_blank'>
         <FaLinkedin />
       </a>
       <a href='https://github.com/hilla10' target='_blank'>
